@@ -23,6 +23,7 @@ static int cont = 0;
     [self.scroller setContentSize:CGSizeMake(320, 1480)];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
