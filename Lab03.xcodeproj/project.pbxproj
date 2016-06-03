@@ -9,11 +9,27 @@
 /* Begin PBXBuildFile section */
 		2F002AD01D00E9C20073E4C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F002ACF1D00E9C20073E4C9 /* main.m */; };
 		2F002AD31D00E9C20073E4C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F002AD21D00E9C20073E4C9 /* AppDelegate.m */; };
-		2F002AD61D00E9C20073E4C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F002AD51D00E9C20073E4C9 /* ViewController.m */; };
+		2F002AD61D00E9C20073E4C9 /* StartScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F002AD51D00E9C20073E4C9 /* StartScreen.m */; };
 		2F002AD91D00E9C20073E4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F002AD71D00E9C20073E4C9 /* Main.storyboard */; };
 		2F002ADC1D00E9C20073E4C9 /* Lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F002ADA1D00E9C20073E4C9 /* Lab03.xcdatamodeld */; };
 		2F002ADE1D00E9C20073E4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F002ADD1D00E9C20073E4C9 /* Assets.xcassets */; };
 		2F002AE11D00E9C20073E4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F002ADF1D00E9C20073E4C9 /* LaunchScreen.storyboard */; };
+		2F0EB16C1D0237DB001F51F8 /* bigfan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB16B1D0237DB001F51F8 /* bigfan.jpg */; };
+		2F0EB16E1D02396A001F51F8 /* luffy_crying.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB16D1D02396A001F51F8 /* luffy_crying.jpg */; };
+		2F0EB1701D023972001F51F8 /* cartel_luffy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EB16F1D023972001F51F8 /* cartel_luffy.jpg */; };
+		2F1C17D01D0118BF00584A2D /* choose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17CD1D0118BF00584A2D /* choose.png */; };
+		2F1C17D11D0118BF00584A2D /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17CE1D0118BF00584A2D /* correct.png */; };
+		2F1C17D41D011FC800584A2D /* monkey d luffy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17D31D011FC800584A2D /* monkey d luffy.jpeg */; };
+		2F1C17D71D01206A00584A2D /* Brook_Alive_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17D51D01206A00584A2D /* Brook_Alive_Portrait.png */; };
+		2F1C17D81D01206A00584A2D /* portgas d ace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17D61D01206A00584A2D /* portgas d ace.jpeg */; };
+		2F1C17DB1D0120F600584A2D /* Roronoa_Zoro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17D91D0120F600584A2D /* Roronoa_Zoro.jpg */; };
+		2F1C17DC1D0120F600584A2D /* usopp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C17DA1D0120F600584A2D /* usopp.png */; };
+		2F55E1721D019046005173F1 /* edward_newgate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E16D1D019046005173F1 /* edward_newgate.png */; };
+		2F55E1731D019046005173F1 /* Franky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E16E1D019046005173F1 /* Franky.jpg */; };
+		2F55E1741D019046005173F1 /* gold d roger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E16F1D019046005173F1 /* gold d roger.jpeg */; };
+		2F55E1751D019046005173F1 /* Nami.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E1701D019046005173F1 /* Nami.png */; };
+		2F55E1761D019046005173F1 /* sanji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E1711D019046005173F1 /* sanji.jpg */; };
+		2F55E1781D019CD4005173F1 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F55E1771D019CD4005173F1 /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +37,29 @@
 		2F002ACF1D00E9C20073E4C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F002AD11D00E9C20073E4C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F002AD21D00E9C20073E4C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F002AD41D00E9C20073E4C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F002AD51D00E9C20073E4C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F002AD41D00E9C20073E4C9 /* StartScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartScreen.h; sourceTree = "<group>"; };
+		2F002AD51D00E9C20073E4C9 /* StartScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartScreen.m; sourceTree = "<group>"; };
 		2F002AD81D00E9C20073E4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F002ADB1D00E9C20073E4C9 /* Lab03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab03.xcdatamodel; sourceTree = "<group>"; };
 		2F002ADD1D00E9C20073E4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F002AE01D00E9C20073E4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F002AE21D00E9C20073E4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0EB16B1D0237DB001F51F8 /* bigfan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigfan.jpg; path = images/bigfan.jpg; sourceTree = "<group>"; };
+		2F0EB16D1D02396A001F51F8 /* luffy_crying.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luffy_crying.jpg; path = images/luffy_crying.jpg; sourceTree = "<group>"; };
+		2F0EB16F1D023972001F51F8 /* cartel_luffy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartel_luffy.jpg; path = images/cartel_luffy.jpg; sourceTree = "<group>"; };
+		2F1C17CD1D0118BF00584A2D /* choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose.png; path = images/choose.png; sourceTree = "<group>"; };
+		2F1C17CE1D0118BF00584A2D /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = correct.png; path = images/correct.png; sourceTree = "<group>"; };
+		2F1C17D31D011FC800584A2D /* monkey d luffy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "monkey d luffy.jpeg"; path = "images/monkey d luffy.jpeg"; sourceTree = "<group>"; };
+		2F1C17D51D01206A00584A2D /* Brook_Alive_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Brook_Alive_Portrait.png; path = images/Brook_Alive_Portrait.png; sourceTree = "<group>"; };
+		2F1C17D61D01206A00584A2D /* portgas d ace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "portgas d ace.jpeg"; path = "images/portgas d ace.jpeg"; sourceTree = "<group>"; };
+		2F1C17D91D0120F600584A2D /* Roronoa_Zoro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Roronoa_Zoro.jpg; path = images/Roronoa_Zoro.jpg; sourceTree = "<group>"; };
+		2F1C17DA1D0120F600584A2D /* usopp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usopp.png; path = images/usopp.png; sourceTree = "<group>"; };
+		2F55E16D1D019046005173F1 /* edward_newgate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = edward_newgate.png; path = images/edward_newgate.png; sourceTree = "<group>"; };
+		2F55E16E1D019046005173F1 /* Franky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Franky.jpg; path = images/Franky.jpg; sourceTree = "<group>"; };
+		2F55E16F1D019046005173F1 /* gold d roger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gold d roger.jpeg"; path = "images/gold d roger.jpeg"; sourceTree = "<group>"; };
+		2F55E1701D019046005173F1 /* Nami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nami.png; path = images/Nami.png; sourceTree = "<group>"; };
+		2F55E1711D019046005173F1 /* sanji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sanji.jpg; path = images/sanji.jpg; sourceTree = "<group>"; };
+		2F55E1771D019CD4005173F1 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = incorrect.png; path = images/incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +92,9 @@
 		2F002ACD1D00E9C20073E4C9 /* Lab03 */ = {
 			isa = PBXGroup;
 			children = (
-				2F002AD11D00E9C20073E4C9 /* AppDelegate.h */,
-				2F002AD21D00E9C20073E4C9 /* AppDelegate.m */,
-				2F002AD41D00E9C20073E4C9 /* ViewController.h */,
-				2F002AD51D00E9C20073E4C9 /* ViewController.m */,
+				2F1C17CA1D01127A00584A2D /* images */,
+				2F002AE91D00EA0D0073E4C9 /* Main */,
+				2F002AE81D00E9F90073E4C9 /* Controllers */,
 				2F002AD71D00E9C20073E4C9 /* Main.storyboard */,
 				2F002ADD1D00E9C20073E4C9 /* Assets.xcassets */,
 				2F002ADF1D00E9C20073E4C9 /* LaunchScreen.storyboard */,
@@ -80,6 +111,47 @@
 				2F002ACF1D00E9C20073E4C9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F002AE81D00E9F90073E4C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F002AD41D00E9C20073E4C9 /* StartScreen.h */,
+				2F002AD51D00E9C20073E4C9 /* StartScreen.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2F002AE91D00EA0D0073E4C9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F002AD11D00E9C20073E4C9 /* AppDelegate.h */,
+				2F002AD21D00E9C20073E4C9 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2F1C17CA1D01127A00584A2D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2F0EB16F1D023972001F51F8 /* cartel_luffy.jpg */,
+				2F0EB16D1D02396A001F51F8 /* luffy_crying.jpg */,
+				2F0EB16B1D0237DB001F51F8 /* bigfan.jpg */,
+				2F55E1771D019CD4005173F1 /* incorrect.png */,
+				2F55E16D1D019046005173F1 /* edward_newgate.png */,
+				2F55E16E1D019046005173F1 /* Franky.jpg */,
+				2F55E16F1D019046005173F1 /* gold d roger.jpeg */,
+				2F55E1701D019046005173F1 /* Nami.png */,
+				2F55E1711D019046005173F1 /* sanji.jpg */,
+				2F1C17D91D0120F600584A2D /* Roronoa_Zoro.jpg */,
+				2F1C17DA1D0120F600584A2D /* usopp.png */,
+				2F1C17D51D01206A00584A2D /* Brook_Alive_Portrait.png */,
+				2F1C17D61D01206A00584A2D /* portgas d ace.jpeg */,
+				2F1C17D31D011FC800584A2D /* monkey d luffy.jpeg */,
+				2F1C17CD1D0118BF00584A2D /* choose.png */,
+				2F1C17CE1D0118BF00584A2D /* correct.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +211,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1C17D11D0118BF00584A2D /* correct.png in Resources */,
+				2F0EB1701D023972001F51F8 /* cartel_luffy.jpg in Resources */,
+				2F55E1741D019046005173F1 /* gold d roger.jpeg in Resources */,
+				2F0EB16E1D02396A001F51F8 /* luffy_crying.jpg in Resources */,
+				2F55E1721D019046005173F1 /* edward_newgate.png in Resources */,
+				2F1C17DB1D0120F600584A2D /* Roronoa_Zoro.jpg in Resources */,
 				2F002AE11D00E9C20073E4C9 /* LaunchScreen.storyboard in Resources */,
+				2F1C17D41D011FC800584A2D /* monkey d luffy.jpeg in Resources */,
+				2F1C17D71D01206A00584A2D /* Brook_Alive_Portrait.png in Resources */,
+				2F0EB16C1D0237DB001F51F8 /* bigfan.jpg in Resources */,
 				2F002ADE1D00E9C20073E4C9 /* Assets.xcassets in Resources */,
+				2F55E1731D019046005173F1 /* Franky.jpg in Resources */,
+				2F55E1781D019CD4005173F1 /* incorrect.png in Resources */,
+				2F1C17D01D0118BF00584A2D /* choose.png in Resources */,
 				2F002AD91D00E9C20073E4C9 /* Main.storyboard in Resources */,
+				2F55E1751D019046005173F1 /* Nami.png in Resources */,
+				2F55E1761D019046005173F1 /* sanji.jpg in Resources */,
+				2F1C17DC1D0120F600584A2D /* usopp.png in Resources */,
+				2F1C17D81D01206A00584A2D /* portgas d ace.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F002ADC1D00E9C20073E4C9 /* Lab03.xcdatamodeld in Sources */,
-				2F002AD61D00E9C20073E4C9 /* ViewController.m in Sources */,
+				2F002AD61D00E9C20073E4C9 /* StartScreen.m in Sources */,
 				2F002AD31D00E9C20073E4C9 /* AppDelegate.m in Sources */,
 				2F002AD01D00E9C20073E4C9 /* main.m in Sources */,
 			);
@@ -268,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lab03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlRuProjects.Lab03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lab03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlRuProjects.Lab03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +394,7 @@
 				2F002AE71D00E9C30073E4C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
