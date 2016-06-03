@@ -21,25 +21,6 @@ static int cont = 0;
     // Do any additional setup after loading the view, typically from a nib.
     [self.scroller setScrollEnabled:YES];
     [self.scroller setContentSize:CGSizeMake(320, 1480)];
-    
-    if (cont== 10)
-    {
-        self.btnWinner.enabled = TRUE;
-        self.btnNoob.enabled = FALSE;
-        self.btnLoser.enabled = FALSE;
-    }
-    else if ( cont>= 5 && cont<10)
-    {
-        self.btnWinner.enabled = FALSE;
-        self.btnNoob.enabled = TRUE;
-        self.btnLoser.enabled = FALSE;
-    }
-    else
-    {
-        self.btnWinner.enabled = FALSE;
-        self.btnNoob.enabled = FALSE;
-        self.btnLoser.enabled = TRUE;
-    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -192,6 +173,25 @@ static int cont = 0;
     //disable buttons
     self.button19.enabled = FALSE;
     self.button20.enabled = FALSE;
+    
+    if (cont == 10)
+    {
+        self.btnWinner.enabled = TRUE;
+        self.btnNoob.enabled = FALSE;
+        self.btnLoser.enabled = FALSE;
+    }
+    else if ( cont>= 5 && cont<10)
+    {
+        self.btnWinner.enabled = FALSE;
+        self.btnNoob.enabled = TRUE;
+        self.btnLoser.enabled = FALSE;
+    }
+    else if (cont < 5)
+    {
+        self.btnWinner.enabled = FALSE;
+        self.btnNoob.enabled = FALSE;
+        self.btnLoser.enabled = TRUE;
+    }
 }
 
 - (IBAction)button20:(id)sender {
@@ -199,6 +199,25 @@ static int cont = 0;
     //disable buttons
     self.button19.enabled = FALSE;
     self.button20.enabled = FALSE;
+    
+    if (cont == 10)
+    {
+        self.btnWinner.enabled = TRUE;
+        self.btnNoob.enabled = FALSE;
+        self.btnLoser.enabled = FALSE;
+    }
+    else if ( cont>= 5 && cont<10)
+    {
+        self.btnWinner.enabled = FALSE;
+        self.btnNoob.enabled = TRUE;
+        self.btnLoser.enabled = FALSE;
+    }
+    else if (cont < 5)
+    {
+        self.btnWinner.enabled = FALSE;
+        self.btnNoob.enabled = FALSE;
+        self.btnLoser.enabled = TRUE;
+    }
 }
 
 
