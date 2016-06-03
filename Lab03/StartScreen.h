@@ -102,5 +102,10 @@
 - (IBAction)button19:(id)sender;    //Live
 - (IBAction)button20:(id)sender;    //Died
 
+@property (strong, nonatomic) IBOutlet UIButton *btnWinner;
+@property (strong, nonatomic) IBOutlet UIButton *btnNoob;
+@property (strong, nonatomic) IBOutlet UIButton *btnLoser;
+
+
 @end
 

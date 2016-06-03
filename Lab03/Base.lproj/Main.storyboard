@@ -280,18 +280,41 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oS-j8-dPe" userLabel="btnWinner">
+                                        <rect key="frame" x="104" y="1405" width="113" height="67"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="CONTINUAR">
+                                            <color key="titleColor" red="1" green="0.4332329674" blue="0.074936902720000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="5he-AO-hfx" kind="presentation" id="0iH-dG-Pm8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4h-L5-jBf" userLabel="btnNoob">
+                                        <rect key="frame" x="104" y="1405" width="113" height="67"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="CONTINUAR">
+                                            <color key="titleColor" red="1" green="0.4332329674" blue="0.074936902720000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="4a4-YY-8eN" kind="presentation" id="zl1-PR-I8C"/>
+                                        </connections>
+                                    </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="choose.png" translatesAutoresizingMaskIntoConstraints="NO" id="nWr-cQ-1h3" userLabel="img_selected1">
                                         <rect key="frame" x="260" y="128" width="25" height="21"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sanji.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gQv-EL-gWi" userLabel="img_caracter9">
                                         <rect key="frame" x="8" y="1132" width="132" height="93"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oS-j8-dPe" userLabel="button21">
-                                        <rect key="frame" x="13" y="1405" width="113" height="67"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzb-px-m4o" userLabel="btnLoser">
+                                        <rect key="frame" x="104" y="1405" width="113" height="67"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                         <state key="normal" title="CONTINUAR">
                                             <color key="titleColor" red="1" green="0.4332329674" blue="0.074936902720000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="UN7-Lo-xze" kind="presentation" id="O4N-6J-biM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
@@ -308,6 +331,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1480"/>
                     <connections>
+                        <outlet property="btnLoser" destination="Vzb-px-m4o" id="25G-Qb-lrf"/>
+                        <outlet property="btnNoob" destination="O4h-L5-jBf" id="IDw-dN-kEl"/>
+                        <outlet property="btnWinner" destination="6oS-j8-dPe" id="g1D-sS-UmU"/>
                         <outlet property="button1" destination="z93-Kc-bLM" id="l68-1O-nCi"/>
                         <outlet property="button10" destination="CiI-Fm-ckz" id="IcW-8O-4WX"/>
                         <outlet property="button11" destination="YQO-2n-VFk" id="qMy-dX-GeV"/>
@@ -379,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dD8-0O-oXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="675" y="-30"/>
+            <point key="canvasLocation" x="309" y="1639"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xwV-Dy-OCW">
@@ -415,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s4b-28-ttr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1135" y="-30"/>
+            <point key="canvasLocation" x="755" y="1639"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Sex-iz-LGq">
@@ -451,7 +477,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rCm-q9-3ep" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1583" y="-30"/>
+            <point key="canvasLocation" x="1195" y="1639"/>
         </scene>
     </scenes>
     <resources>
